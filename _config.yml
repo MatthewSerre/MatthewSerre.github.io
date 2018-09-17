@@ -1,11 +1,11 @@
 # Site settings
-author: matthew.serre
-title: 
+author: Matthew Serre
+title: From First Step to Flatiron
 header-img: img/home-bg.png
 email: matthew.serre@gmail.com
-copyright_name: matthew.serre
+copyright_name: Matthew Serre
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A journey into the world of web development
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  BusterStatus
