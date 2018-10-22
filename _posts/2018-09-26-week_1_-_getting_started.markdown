@@ -6,7 +6,7 @@ permalink:  week_1_-_getting_started
 ---
 
 
-Hello, all.  I want to make a habit of writing a brief summary of my work from the previous week to keep track of what I have learned and what I am doing.
+Hello, all.  I want to make a habit of writing a brief summary of my work on a regular basis to try to keep track of what I have learned and what I am doing.
 
 So far, I have been enjoying the curriculum.  I have begun learning Ruby by reading through the materials and coding along in the Learn IDE. The Learn IDE has been cool because of the testing component, which helps me figure out what I need to do next, as well as the integration with GitHub, which has gotten me used to the idea of committing changes to the code I have been writing and editing once I am finished solving the problem posed to me in the coursework.
 
