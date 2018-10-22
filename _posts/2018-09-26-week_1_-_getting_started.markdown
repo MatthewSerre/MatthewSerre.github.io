@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Week 1 - Getting Started"
-date:       2018-09-27 00:04:40 +0000
+title:      "Getting Started"
+date:       2018-09-26 20:04:41 -0400
 permalink:  week_1_-_getting_started
 ---
 
