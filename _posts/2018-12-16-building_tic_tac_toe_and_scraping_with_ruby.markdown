@@ -1,0 +1,11 @@
+---
+layout: post
+title:      "Building Tic Tac Toe and Scraping with Ruby"
+date:       2018-12-16 23:01:21 +0000
+permalink:  building_tic_tac_toe_and_scraping_with_ruby
+---
+
+
+I have been working to finish the Tic Tac Toe program and transition to building the scraping tool to wrap up the section on Object Oriented Ruby.  I have the Tic Tac Toe program passing all the tests, but I am trying to improve the computer's ability to play the game to a level beyond outputting random integers to select available spaces on the game board.  I guess colloquially one would refer to the computer player as a form of artificial intelligence.  However, I have been trying to refrain from thinking about or using that term because it seems to have become a meme for lack of a better word to describe anything with a decision tree as AI, which, to me at least, has always seemed to carry a greater weight in terms of its significance.
+
+In any case, that is my current goal and once I figure that out, I will be able to continue with scraping, which has been challenging.  I am struggling to understand how to use the Nokogiri gem, but I am excited to have a project idea in mind.  One of my main motivations for wanting to learn web development is to have the ability to create tools I want to use and want to share with others to use, particularly at work.  In my field, I work with the state government, which provides information on their website for the publc to use.  However, the website is dated and the data cannot be accessed easily.  I want to scrape the website and create a better way for people to access that data.  I am hopeful I can receive approval for the project and create something I and others will ultimately use each day.
