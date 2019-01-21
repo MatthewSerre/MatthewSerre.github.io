@@ -11,7 +11,7 @@ Initially I had another idea for my Ruby gem CLI project that ended up being ina
 
 Enter Mox Ruby, the name (which occurred to me when I sat down to write this post) of my CLI tool for displaying and sorting events based an option selected by the user.  Why Mox Ruby you may think (or not)?
 
-![From left to right: Mox Pearl, Mox Sapphire, Mox Jet, Mox Ruby, and Mox Emerald.](https://gemr.com/wp-content/uploads/2015/11/tumblr_ndhlybGl2q1qia2dho1_1280-1024x287.jpg)
+![](https://gemr.com/wp-content/uploads/2015/11/tumblr_ndhlybGl2q1qia2dho1_1280-1024x287.jpg)
 
 The first three base sets released for Magic contained Mox Pearl, Mox Sapphire, Mox Jet, Mox Ruby, and Mox Emerald, a series of five cards referred to collectively as Moxen.  In Magic, players rely on lands to produce mana to case creatures and spells.  However, players can only play one land per turn barring exceptions made by other cards.  Moxen, which are artifacts with a cost of zero, can produce mana just like lands, so being able to play a land and one or more Moxen in a turn effectively allows you to cheat and produce more mana than you should be able to produce early in the game, thereby allowing you to cast stronger creatures and spells earlier than an opponent could do the same.  Therefore, Moxen are very powerful.
 
