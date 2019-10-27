@@ -1,0 +1,2 @@
+I".<p>I struggled at first with understanding how to bring everything I learned about JavaScript together with Rails to generate dynamic page content.  Of course Rails allows you to render pages dynamically through embedded Ruby files, but at the cost of constant page refreshes.  How does that work?</p>
+:ET
