@@ -22,9 +22,12 @@ layout: default
 <!-- Post Content -->
 <article>
     <div class="container">
+            <br />
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.date | date_to_string }}</p>
         <div class="row align-items-center">
             <div class="col">
-                <br />
+
                 <ul class="pager">
                         <li>
                                 <a href="/blog" data-toggle="tooltip" data-placement="top" title="All Posts">Back to All Posts</a>

@@ -1,0 +1,19 @@
+I"ê<div style="text-align: center">
+<img src="/img/Image.jpeg" alt="Amass the Components" />
+<br />
+</div>
+
+<p>Understanding React, and by extension Redux, has been challenging, but feels like the culmination of my journey to learn full stack development, which is fitting, as it is the last section in my curriculum with Flatiron School.  The final project was the first time when the back end and front end felt distinct, and they were by virtue of setting up two separate applications.  Even with the previous project in which I was tasked with refactoring my Rails application to have a JavaScript component that allowed a user to interact with my app without page reloads, all of the code was contained within the same project, blurring the lines between what the Rails component was doing and what the JavaScript components were doing.  In my current project, the back end is comprised of a Rails API that handles all of the data manipulation based on input entered on the front end, which is comprised of React components and a Redux store.  Because of the setup of the applications, the principle of separation of concerns that has been emphasized throughout the curriculum feels more relevant than ever.</p>
+
+<p>For my project, I chose to create a bookmark application in the same vein as Pocket wherein a user can create bookmarks and folders to contain them.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># /app/views/caseloads/index.html.erb
+
+&lt;ul class="collection"&gt;
+&lt;% @caseloads.each do |caseload| %&gt;
+    &lt;li class="collection-item"&gt;&lt;%= link_to "#{caseload.user.name}'s caseload", user_caseload_url(caseload.user, caseload) %&gt;&lt;/li&gt;
+&lt;% end %&gt;
+&lt;/ul&gt;
+</code></pre></div></div>
+
+:ET

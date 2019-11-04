@@ -1,0 +1,64 @@
+I"'<p>Working with React has been like…</p>
+
+<div style="text-align: center">
+<img src="/img/Image.jpeg" alt="Amass the Components" />
+</div>
+<p><br /></p>
+
+<p>Seriously though, understanding React, and by extension Redux, has been challenging, but feels like the culmination of my journey to learn full stack development, which is fitting, as it is the last section in my curriculum with Flatiron School.  The final project was the first time when the back end and front end felt distinct, and they were by virtue of setting up two separate applications.  Even with the previous project in which I was tasked with refactoring my Rails application to have a JavaScript component that allowed a user to interact with my app without page reloads, all of the code was contained within the same project, blurring the lines between what the Rails component was doing and what the JavaScript components were doing.  In my current project, the back end is comprised of a Rails API that handles all of the data manipulation based on input entered on the front end, which is comprised of React components and a Redux store.  Because of the setup of the applications, the principle of separation of concerns that has been emphasized throughout the curriculum feels more relevant than ever.</p>
+
+<p>For my project, I chose to create a bookmark application in the same vein as Pocket wherein a user can create bookmarks and tags, or in my case folders, to organize them.  The Rails back end API processes requests from the front end and, as with any other Rails app, the controller dictates the response and persists any changes to the database.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># /bookmark-backend/app/controllers/api/v1/bookmarks_controller.rb
+
+class Api::V1::BookmarksController &lt; ApplicationController
+
+    before_action :set_folder
+
+    def index
+        @bookmarks = @folder.bookmarks
+        render json: @bookmarks
+    end
+
+    def all_bookmarks
+        @bookmarks = Bookmark.all.order(:name)
+        render json @bookmarks
+    end
+
+    def show
+        @bookmark = @folder.bookmarks.find(id: params[:id])
+        render json: @bookmark
+    end
+
+    def create
+        @bookmark = @folder.bookmarks.new(bookmark_params)
+        if @bookmark.save
+            render json: @folder
+        else
+            render json: {error: "Error creating bookmark"}
+        end
+    end
+
+    def destroy
+        bookmark = Bookmark.find(params["id"])
+        folder = Folder.find(bookmark.folder_id)
+        bookmark.destroy
+        render json: folder
+    end
+
+    private
+
+    def set_folder
+        @folder = Folder.find(params[:folder_id])
+    end
+
+    def bookmark_params
+        params.require(:bookmark).permit(:folder_id, :name, :url, :notes)
+    end
+
+end
+</code></pre></div></div>
+
+<p>The app functions such that a user must create at least one folder before creating and adding bookmarks, but once a folder exists, the controller sets the selected folder to an instance variable that the controller can use to access the bookmarks within in each method as necessary.  Because the Rails application is not responsible for rendering views as it otherwise might be without another front end interface in place, each method renders a JSON response that the front end uses to populate the view with the requested data.</p>
+
+:ET
