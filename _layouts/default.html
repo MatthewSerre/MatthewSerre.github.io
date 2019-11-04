@@ -1,16 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-{% include head.html %}
-
-<body>
-
-    {% include nav.html %}
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Matthew Serre</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/54d2895df4.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Full stack web developer with a passion for solving challenges using the latest web technologies.  With experience in Ruby/Rails, JavaScript, and React/Redux and a background in the disability field, I discovered web development through my own desire to create tools for use among my colleagues.  I bring strong skills in communication and team-building that help organizations of all types, but especially non-profits, create the tools they need to support their employees in achieving their mission.
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li class="text-white"><i class="fas fa-blog"></i> <a href="/blog" class="text-white">Blog</a></li>
+                <li class="text-white"><i class="fas fa-envelope-square"></i> <a href="mailto:matthew.serre@gmail.com" class="text-white">Email</a></li>
+                <li class="text-white"><i class="fab fa-github-square"></i> <a href="https://github.com/MatthewSerre" class="text-white">GitHub</a></li>
+                <li class="text-white"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/matthew-serre-04972952/" class="text-white">LinkedIn</a></li>
+                <li class="text-white"><i class="fas fa-file-pdf"></i> <a href="/resume.pdf" class="text-white">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="https://ma.tthewserre.com/" class="navbar-brand d-flex align-items-center">
+            <strong><i class="fas fa-user-circle"></i> Matthew Serre</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+    <div class="container">
     {{ content }}
-
-    {% include footer.html %}
-
-</body>
-
+    </div>
+</main>
+  </body>
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+      </p>
+      <p>Copyright &copy; Matthew Serre 2019</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
