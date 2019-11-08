@@ -1,153 +1,101 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Matthew Serre</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/54d2895df4.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <header>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
-              <p class="text-muted">Full stack web developer with a passion for solving challenges using the latest web technologies.  With experience in Ruby/Rails, JavaScript, and React/Redux and a background in the disability field, I discovered web development through my own desire to create tools for use among my colleagues.  I bring strong skills in communication and team-building that help organizations of all types, but especially non-profits, create the tools they need to support their employees in achieving their mission.
-              </p>
+---
+layout: default
+---
+
+<body>
+  <main role="main">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Web Development Portfolio</h1>
+        <p class="lead text-muted">A simple site built using Bootstrap to showcase the web development projects I have completed throughout the past year.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">Learn more about me</a>
+        </p>
+      </div>
+    </section>
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="/Rails_React_Top_Marks_screenshot.png" class="img-fluid" alt="Rails React Top Marks screenshot"/>
+              <div class="card-body">
+                <h3>Top Marks</h3>
+                <p class="card-text">A single page app built using a Ruby on Rails backend application as the API and a React.js frontend for storing session data and rendering the user interface that allows users to create, view, and delete bookmarks.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <a href="https://github.com/MatthewSerre/bookmark-backend"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub 1</button></a>
+                    <a href="https://github.com/MatthewSerre/bookmark-frontend"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub 2</button></a>
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
-              <ul class="list-unstyled">
-                <li class="text-white"><i class="fas fa-blog"></i> <a href="/blog" class="text-white">Blog</a></li>
-                <li class="text-white"><i class="fas fa-envelope-square"></i> <a href="mailto:matthew.serre@gmail.com" class="text-white">Email</a></li>
-                <li class="text-white"><i class="fab fa-github-square"></i> <a href="https://github.com/MatthewSerre" class="text-white">GitHub</a></li>
-                <li class="text-white"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/matthew-serre-04972952/" class="text-white">LinkedIn</a></li>
-                <li class="text-white"><i class="fas fa-file-pdf"></i> <a href="/resume.pdf" class="text-white">Resume</a></li>
-              </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ge2LVZ1lEeg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h3>Case Manager on Rails</h3>
+                <p class="card-text">A content management system built using Ruby on Rails and JavaScript that allows a user to create an account, sign in, and create, view, update, and delete caseloads, clients, and notes.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <a href="https://github.com/MatthewSerre/rails-portfolio-project"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
+                    <!-- <a href="https://www.youtube.com/watch?v=KnuspTo6Na0"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-video"></i> Alt Video</button></a> -->
+                    <a href="http://casemanageronrails.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+                  </div>
+                  <!-- <small class="text-muted">29 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KVKkFuozbyw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h3>Reservation Content Management System</h3>
+              <p class="card-text">A content management system built using Ruby and the Sinatra gem that allows a user to create an account, sign in, and create, view, update, and delete reservations.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <a href="https://github.com/MatthewSerre/sinatra-reservation-cms"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
+                  <a href="http://sinatrareservationcms.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+                </div>
+                <!-- <small class="text-muted">11 mins</small> -->
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container d-flex justify-content-between">
-          <a href="http://www.matthewserre.com/" class="navbar-brand d-flex align-items-center">
-            <strong><i class="fas fa-user-circle"></i> Matthew Serre</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header>
-    <main role="main">
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Web Development Portfolio</h1>
-          <p class="lead text-muted">A simple site built using Bootstrap to showcase the web development projects I have completed throughout the past year.</p>
-          <p>
-            <a href="#" class="btn btn-primary my-2" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">Learn more about me</a>
-          </p>
-        </div>
-      </section>
-      <div class="album py-5 bg-light">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zZ_LWs_jGlE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h3>MTG Event Info</h3>
+                <p class="card-text">A command line interface tool built using Ruby that scrapes data from websites that post information about upcoming Magic: The Gathering events and allows the user to sort and display events according to the criteria they select.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <a href="https://github.com/MatthewSerre/mtgEventInfo"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
+                  </div>
+                  <small class="text-muted">7 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img src="/Rails_React_Top_Marks_screenshot.png" class="img-fluid" alt="Rails React Top Marks screenshot"/>
+                <img src="/JavaScript_Top_9_Movie_Tool_screenshot.png" class="img-fluid" alt="JavaScript Top 9 Movie Tool Screenshot"/>
                 <div class="card-body">
-                  <h3>Top Marks</h3>
-                  <p class="card-text">A single page app built using a Ruby on Rails backend application as the API and a React.js frontend for storing session data and rendering the user interface that allows users to create, view, and delete bookmarks.</p>
+                  <h3>T9 - A Top 9 Movies and Television Tool</h3>
+                  <p class="card-text">A single page application built using JavaScript and data from The Movie DB API that allows a user to select different categories, genres, and years to visualize the highest rated movies and television programs.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div>
-                      <a href="https://github.com/MatthewSerre/bookmark-backend"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub 1</button></a>
-                      <a href="https://github.com/MatthewSerre/bookmark-frontend"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub 2</button></a>
+                      <a href="https://github.com/MatthewSerre/T9-Top-9-Movies-and-Television-Tool"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
+                      <a href="https://t9moviesandtelevisiontool.matthewserre.com/"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
                     </div>
                     <small class="text-muted"></small>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ge2LVZ1lEeg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="card-body">
-                  <h3>Case Manager on Rails</h3>
-                  <p class="card-text">A content management system built using Ruby on Rails and JavaScript that allows a user to create an account, sign in, and create, view, update, and delete caseloads, clients, and notes.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <a href="https://github.com/MatthewSerre/rails-portfolio-project"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
-                      <!-- <a href="https://www.youtube.com/watch?v=KnuspTo6Na0"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-video"></i> Alt Video</button></a> -->
-                      <a href="http://casemanageronrails.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
-                    </div>
-                    <!-- <small class="text-muted">29 mins</small> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KVKkFuozbyw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <div class="card-body">
-                <h3>Reservation Content Management System</h3>
-                <p class="card-text">A content management system built using Ruby and the Sinatra gem that allows a user to create an account, sign in, and create, view, update, and delete reservations.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div>
-                    <a href="https://github.com/MatthewSerre/sinatra-reservation-cms"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
-                    <a href="http://sinatrareservationcms.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
-                  </div>
-                  <!-- <small class="text-muted">11 mins</small> -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zZ_LWs_jGlE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="card-body">
-                  <h3>MTG Event Info</h3>
-                  <p class="card-text">A command line interface tool built using Ruby that scrapes data from websites that post information about upcoming Magic: The Gathering events and allows the user to sort and display events according to the criteria they select.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <a href="https://github.com/MatthewSerre/mtgEventInfo"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
-                    </div>
-                    <small class="text-muted">7 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <img src="/JavaScript_Top_9_Movie_Tool_screenshot.png" class="img-fluid" alt="JavaScript Top 9 Movie Tool Screenshot"/>
-                  <div class="card-body">
-                    <h3>T9 - A Top 9 Movies and Television Tool</h3>
-                    <p class="card-text">A single page application built using JavaScript and data from The Movie DB API that allows a user to select different categories, genres, and years to visualize the highest rated movies and television programs.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div>
-                        <a href="https://github.com/MatthewSerre/T9-Top-9-Movies-and-Television-Tool"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
-                        <a href="https://t9moviesandtelevisiontool.matthewserre.com/"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
-                      </div>
-                      <small class="text-muted"></small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-    </main>
-  </body>
-  <footer class="text-muted">
-    <div class="container">
-      <p class="float-right">
-      </p>
-      <p>Copyright &copy; Matthew Serre 2019</p>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</html>
+      </div>
+  </main>
+</body>
