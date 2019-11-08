@@ -16,83 +16,121 @@ layout: default
     <div class="album py-5 bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4 d-flex align-items-stretch">
             <div class="card mb-4 shadow-sm">
-              <img src="/Rails_React_Top_Marks_screenshot.png" class="img-fluid" alt="Rails React Top Marks screenshot"/>
               <div class="card-body">
-                <h3>Top Marks</h3>
-                <p class="card-text">A single page app built using a Ruby on Rails backend application as the API and a React.js frontend for storing session data and rendering the user interface that allows users to create, view, and delete bookmarks.</p>
-                <div class="d-flex justify-content-between align-items-center">
+                <h3 style="text-align: center;">Top Marks</h3>
+                <p class="card-text">A single page app for users to store bookmarks and create, view, and delete bookmarks
+                  <ul>
+                  <li>Sends and receives JSON data to and from a back end RESTful API written in Ruby on Rails</li>
+                  <li>Generates a dynamic front end user interface written in React</li>
+                  <li>Stores session data on the front end using Redux and persists data on the back end using SQLite or PostgreSQL</li>
+                  </ul>
+                </p>
+                <div style="text-align: center;">
                   <div>
-                    <a href="https://github.com/MatthewSerre/bookmark-backend"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub 1</button></a>
-                    <a href="https://github.com/MatthewSerre/bookmark-frontend"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub 2</button></a>
+                    <a href="https://github.com/MatthewSerre/top-marks"><img src="https://img.icons8.com/color/48/000000/github--v1.png" title="Available on GitHub"></a>
+                    <img src="https://img.icons8.com/color/48/000000/heroku.png" title="Deploys via Heroku">
+                    <img src="https://img.icons8.com/color/48/000000/bootstrap.png" title="Written using Bootstrap"></a>
+                    <img src="https://img.icons8.com/color/48/000000/javascript.png" title="Written using JavaScript"></a>
+                    <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" title="Written using Ruby">
                   </div>
-                  <small class="text-muted"></small>
+                  <br />
+                  <div>
+                    <a href="https://www.youtube.com/watch?v=upHCLaNS6BU"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-youtube"></i> Video Demo</button></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 d-flex align-items-stretch">
             <div class="card mb-4 shadow-sm">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ge2LVZ1lEeg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
-                <h3>Case Manager on Rails</h3>
-                <p class="card-text">A content management system built using Ruby on Rails and JavaScript that allows a user to create an account, sign in, and create, view, update, and delete caseloads, clients, and notes.</p>
-                <div class="d-flex justify-content-between align-items-center">
+                <h3 style="text-align: center;">Case Manager on Rails</h3>
+                <p class="card-text">
+                    A web app for case managers to manage caseloads, clients, and client notes
+                  <ul>
+                    <li>Sends and receives JSON data to and from a back end RESTful API written in Ruby on Rails</li>
+                    <li>Generates a dynamic front end user interface written in JavaScript</li>
+                    <li>Leverages bcrypt to allow users to create accounts with secure passwords and stores credentials safely using Active Record and SQLite or PostgreSQL</li>
+                </ul>
+                </p>
+                <div style="text-align: center;">
                   <div>
-                    <a href="https://github.com/MatthewSerre/rails-portfolio-project"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
-                    <!-- <a href="https://www.youtube.com/watch?v=KnuspTo6Na0"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-video"></i> Alt Video</button></a> -->
+                    <a href="https://github.com/MatthewSerre/rails-portfolio-project"><img src="https://img.icons8.com/color/48/000000/github--v1.png" title="Available on GitHub"></a>
+                    <img src="https://img.icons8.com/color/48/000000/heroku.png" title="Deploys via Heroku">
+                    <img src="https://img.icons8.com/color/48/000000/javascript.png" title="Written using JavaScript"></a>
+                    <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" title="Written using Ruby">
+                  </div>
+                  <br />
+                  <div>
                     <a href="http://casemanageronrails.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
                   </div>
-                  <!-- <small class="text-muted">29 mins</small> -->
                 </div>
               </div>
             </div>
           </div>
-        <div class="col-md-4">
+          <div class="col-lg-4 d-flex align-items-stretch">
           <div class="card mb-4 shadow-sm">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KVKkFuozbyw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <h3>Reservation Content Management System</h3>
-              <p class="card-text">A content management system built using Ruby and the Sinatra gem that allows a user to create an account, sign in, and create, view, update, and delete reservations.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <a href="https://github.com/MatthewSerre/sinatra-reservation-cms"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
-                  <a href="http://sinatrareservationcms.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+              <h3 style="text-align: center;">Sinatra Reservations</h3>
+              <p class="card-text">
+                  A content management system for creating, viewing, updating, and deleting reservations
+                  <ul>
+                  <li>Runs on Rack and Sinatra gems, a lightweight alternative to Rails</li>
+                  <li>Validates user input on the front end and backend and protects against unauthenticated and/or unauthorized access based on user identity</li>
+                  <li>Leverages bcrypt to allow users to create accounts with secure passwords and stores credentials safely using Active Record and SQLite or PostgreSQL</li>
+                  </ul>
+                </p>
+                <div style="text-align: center;">
+                  <div>
+                    <a href="https://github.com/MatthewSerre/sinatra-reservation-cms"><img src="https://img.icons8.com/color/48/000000/github--v1.png" title="Available on GitHub"></a>
+                    <img src="https://img.icons8.com/color/48/000000/heroku.png" title="Deploys via Heroku">
+                    <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" title="Written using Ruby">
+                  </div>
+                  <br />
+                  <div>
+                    <a href="http://sinatrareservationcms.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+                  </div>
                 </div>
-                <!-- <small class="text-muted">11 mins</small> -->
-              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 d-flex align-items-stretch">
             <div class="card mb-4 shadow-sm">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zZ_LWs_jGlE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
-                <h3>MTG Event Info</h3>
+                <h3 style="text-align: center;">MTG Event Info</h3>
                 <p class="card-text">A command line interface tool built using Ruby that scrapes data from websites that post information about upcoming Magic: The Gathering events and allows the user to sort and display events according to the criteria they select.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div>
-                    <a href="https://github.com/MatthewSerre/mtgEventInfo"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
+                <div style="text-align: center;">
+                    <div>
+                      <a href="https://github.com/MatthewSerre/mtgEventInfo"><img src="https://img.icons8.com/color/48/000000/github--v1.png" title="Available on GitHub"></a>
+                      <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" title="Written using Ruby">
+                    </div>
+                    <br />
+                    <div>
+                      <a href="https://www.youtube.com/embed/zZ_LWs_jGlE"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-youtube"></i> Video Demo</button></a>
+                    </div>
                   </div>
-                  <small class="text-muted">7 mins</small>
-                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 d-flex align-items-stretch">
               <div class="card mb-4 shadow-sm">
-                <img src="/JavaScript_Top_9_Movie_Tool_screenshot.png" class="img-fluid" alt="JavaScript Top 9 Movie Tool Screenshot"/>
                 <div class="card-body">
-                  <h3>T9 - A Top 9 Movies and Television Tool</h3>
+                  <h3 style="text-align: center;">Top 9 Movies/TV Tool</h3>
                   <p class="card-text">A single page application built using JavaScript and data from The Movie DB API that allows a user to select different categories, genres, and years to visualize the highest rated movies and television programs.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <a href="https://github.com/MatthewSerre/T9-Top-9-Movies-and-Television-Tool"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-github"></i> GitHub</button></a>
-                      <a href="https://t9moviesandtelevisiontool.matthewserre.com/"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+                  <div style="text-align: center;">
+                      <div>
+                        <a href="https://github.com/MatthewSerre/T9-Top-9-Movies-and-Television-Tool"><img src="https://img.icons8.com/color/48/000000/github--v1.png" title="Available on GitHub"></a>
+                        <img src="logomark.png" title="Deploys via Netlify" style="height: 48px; width: 48px;">
+                        <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" title="Written using Ruby">
+                      </div>
+                      <br />
+                      <div>
+                        <a href="https://t9moviesandtelevisiontool.matthewserre.com/"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+                      </div>
                     </div>
-                    <small class="text-muted"></small>
-                  </div>
+                </div>
                 </div>
               </div>
             </div>
