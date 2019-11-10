@@ -14,7 +14,7 @@ layout: default
             <br />
             <p class="lead text-muted" style="text-align: justify;">
                 My name is Matthew Serre and I am a full stack web developer with a passion for solving challenges using the latest web technologies. In addition to
-                my skills in HTML/CSS, JavaScript, React, and Ruby, I have a background in the non-profit world and the field of supporting people with disabilities.  I became interested in web development
+                my skills in HTML/CSS, JavaScript (including React), Ruby (including Rails and Sinatra), and SQL (PostgreSQL and SQLite), I have a background in the non-profit world and the field of supporting people with disabilities.  I became interested in web development
                 because I wanted to have the ability to create tools for myself and my colleagues. My bachelor's degree in English and my professional experience interacting with the public have helped me develop strong communication skills, both verbal and written.  
                 My diverse background has given me the skills I need to help organizations of all types create the tools they need to support their employees in achieving their
                 mission.
@@ -28,7 +28,7 @@ layout: default
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h3 style="text-align: center;">Top Marks</h3>
-              <p class="card-text">A single page app for users to store bookmarks and create, view, and delete bookmarks
+              <p class="card-text">A single page app for creating, viewing, and deleting bookmarks and folders
                 <ul>
                   <li>Sends and receives JSON data to and from a back end RESTful API written in Ruby on Rails</li>
                   <li>Generates a dynamic front end user interface written in React</li>
@@ -45,7 +45,7 @@ layout: default
                 </div>
                 <br />
                 <div>
-                  <a href="https://www.youtube.com/watch?v=upHCLaNS6BU"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-youtube"></i> Video Demo</button></a>
+                  <a href="https://www.youtube.com/watch?v=upHCLaNS6BU" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-youtube"></i> Video Demo</button></a>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ layout: default
                 <ul>
                   <li>Sends and receives JSON data to and from a back end RESTful API written in Ruby on Rails</li>
                   <li>Generates a dynamic front end user interface written in JavaScript</li>
-                  <li>Leverages bcrypt to allow users to create accounts with secure passwords and stores credentials safely using Active Record and SQLite or PostgreSQL</li>
+                  <li>Leverages bcrypt to store credentials safely using Active Record and SQLite or PostgreSQL</li>
                 </ul>
               </p>
               <div style="text-align: center;">
@@ -71,7 +71,7 @@ layout: default
                 </div>
                 <br />
                 <div>
-                  <a href="http://casemanageronrails.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+                  <a href="http://casemanageronrails.matthewserre.com" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
                 </div>
               </div>
             </div>
@@ -81,11 +81,11 @@ layout: default
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h3 style="text-align: center;">Sinatra Reservations</h3>
-              <p class="card-text">A content management system for creating, viewing, updating, and deleting reservations
+              <p class="card-text">A system for creating, viewing, updating, and deleting reservations
                   <ul>
                     <li>Runs on Rack and Sinatra gems, a lightweight alternative to Rails</li>
-                    <li>Validates user input on the front end and backend and protects against unauthenticated and/or unauthorized access based on user identity</li>
-                    <li>Leverages bcrypt to allow users to create accounts with secure passwords and stores credentials safely using Active Record and SQLite or PostgreSQL</li>
+                    <li>Validates user input on the backend and protects against unauthenticated and/or unauthorized access</li>
+                    <li>Leverages bcrypt to allow users to store credentials safely using Active Record and SQLite or PostgreSQL</li>
                   </ul>
               </p>
               <div style="text-align: center;">
@@ -96,7 +96,7 @@ layout: default
                 </div>
                 <br />
                 <div>
-                  <a href="http://sinatrareservationcms.matthewserre.com"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+                  <a href="http://sinatrareservationcms.matthewserre.com" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
                 </div>
               </div>
             </div>
@@ -106,7 +106,14 @@ layout: default
         <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <h3 style="text-align: center;">MTG Event Info</h3>
-            <p class="card-text">A command line interface tool built using Ruby that scrapes data from websites that post information about upcoming Magic: The Gathering events and allows the user to sort and display events according to the criteria they select.</p>
+            <p class="card-text">
+              A command line interface for viewing upcoming Magic: The Gathering events
+              <ul>
+              <li>Loads a command line interface for users to interact with and navigate through a number of options for
+              discovering events</li>
+              <li>Scrapes the target website for information about events using the Nokogiri gem and displays that data in the CLI</li>
+              </ul>
+            </p>
             <div style="text-align: center;">
               <div>
                 <a href="https://github.com/MatthewSerre/mtgEventInfo"><img src="https://img.icons8.com/color/48/000000/github--v1.png" title="Available on GitHub"></a>
@@ -114,7 +121,7 @@ layout: default
               </div>
               <br />
               <div>
-                <a href="https://www.youtube.com/embed/zZ_LWs_jGlE"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-youtube"></i> Video Demo</button></a>
+                <a href="https://www.youtube.com/embed/zZ_LWs_jGlE" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fab fa-youtube"></i> Video Demo</button></a>
               </div>
             </div>
           </div>
@@ -124,7 +131,13 @@ layout: default
         <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <h3 style="text-align: center;">Top 9 Movies/TV Tool</h3>
-            <p class="card-text">A single page application built using JavaScript and data from The Movie DB API that allows a user to select different categories, genres, and years to visualize the highest rated movies and television programs.</p>
+            <p class="card-text">
+              A page for selecting from various criteria to view top rated movies/TV
+              <ul>
+                <li>Renders a responsive page built using custom CSS that updates results immediately based on user input</li>
+                <li>Leverages a public API to obtain, manipulate, and display JSON data</li>
+              </ul>
+            </p>
             <div style="text-align: center;">
                 <div>
                   <a href="https://github.com/MatthewSerre/T9-Top-9-Movies-and-Television-Tool"><img src="https://img.icons8.com/color/48/000000/github--v1.png" title="Available on GitHub"></a>
@@ -133,7 +146,7 @@ layout: default
                 </div>
                 <br />
                 <div>
-                  <a href="https://t9moviesandtelevisiontool.matthewserre.com/"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
+                  <a href="https://t9moviesandtelevisiontool.matthewserre.com/" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-desktop"></i> Live Demo</button></a>
                 </div>
               </div>
             </div>
