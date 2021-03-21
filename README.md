@@ -4,4 +4,4 @@
 
 ## Feedback
 
-If you have any feedback, then feel free to reach out to me and/or open an issue/pull request.
+If you have any feedback, then feel free to reach out to me.
