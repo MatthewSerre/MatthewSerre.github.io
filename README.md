@@ -1,6 +1,6 @@
 # Matthew Serre
 
-[My personal website](https://matthewserre.com) is powered by Bootstrap, Devicon, GitHub Pages, Icons8, and Jekyll.
+[My personal website](https://matthewserre.com) is powered by Bootstrap, GitHub Pages, Icons8, and Jekyll.
 
 ## Feedback
 
